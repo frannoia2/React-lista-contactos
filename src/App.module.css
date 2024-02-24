@@ -1,0 +1,36 @@
+.title{
+  text-align:center;
+  font-size: 3rem;
+  color: #485fc7;
+  font-family: Sans-Serif;
+  text-decoration:none;
+
+}
+.title:hover{
+  opacity: 0.65;
+}
+.newLink{
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+.newButton{
+  background-color: white;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding: calc(1em - 2px) 1em ;
+  text-align: center;
+  white-space: nowrap;
+}
+.newButton:hover{
+  opacity: 0.85;
+}
+.newButton.textNewButton{
+  background-color: #485fc7;
+  border-color: transparent;
+  color: #fff;
+}
+
